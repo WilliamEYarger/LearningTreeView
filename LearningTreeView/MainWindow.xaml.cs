@@ -128,11 +128,7 @@ namespace LearningTreeView
 
         private void SelectionChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
-            /
 
-            //TEST
-             TreeViewItem tvi1= (TreeViewItem)ItemsTree.ItemContainerGenerator.ContainerFromItem(​SelectedItem) ;
-            //endTest
 
             TreeViewItem tvi = (TreeViewItem)e.NewValue;
             string thisNode = (string)tvi.Header;
